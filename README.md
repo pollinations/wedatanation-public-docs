@@ -67,7 +67,8 @@ In order to manage the content easier, we recommend to download the `raw/` folde
 
 Steps to do this are:
 - [Install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- Add your credentials to aws by running [TODO]
+- [Create an access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
+- In your terminal, write `aws configure` and add your access key id and secret access key
 - open a folder in the terminal to which you would like to download the `raw/` folder
 - Run `aws s3 cp --recursive s3://pollinations-ci-bucket/raw/ .`
 - Delete all shitty avatars or move all good ones to another folder
